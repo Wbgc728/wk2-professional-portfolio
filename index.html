@@ -22,9 +22,9 @@
         <div>
         <nav>
             <ul>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about-me-link">About Me</a></li>
+                <li><a href="#work-link">Work</a></li>
+                <li><a href="#contact-link">Contact</a></li>
                 <li><a href="#">Resume</a></li>
             </ul>
         </nav>
@@ -33,17 +33,20 @@
 
     <!-- Body -->
     <main>
-        <!-- Cover Photo -->       
+        <!-- Cover Photo --> 
+        <section>  
         <div class="cover">
             <div class="cover-text">
                 <h2>Consistency of effort over the long run is everything</h2>
             </div>
         </div>
+        </section>
+
         <!-- About Me Section -->
         <section class="about-me">
-            <div class="about-me-title">
-                <h2>About Me</h2>
-            </div>
+            <header>
+                <h2><a id="about-me-link"> </a>About Me</h2>
+            </header>
             <div class="about-me-text">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, odio ad? Iure ut, 
@@ -64,38 +67,46 @@
         </section>
         <!-- Work Section -->
         <section class="work">
-            <div class="work-title">
-                <h2>Work</h2>
-            </div>
-            <div class="work-project-main">
+            <header>
+                <h2><a id="work-link"></a>Work</h2>
+            </header>
+            <div class="work-projects">
+                <div class="work-project-main">
+                <a href="">
+                    <!-- <image src="./assets/cover-photo.png">MERN STACK</image> -->
+                </a>
                 MERN Stack
-            </div>
+                </div>
                 <div class="work-project-minor">
+                    <a href=""></a>
                     Node/IoT
                 </div>
                 <div class="work-project-minor">
+                    <a href=""></a>
                     React/JavaScript/CSS
                 </div>
                 <div class="work-project-minor">
+                    <a href=""></a>
                     MERN Stack
                 </div>
                 <div class="work-project-minor">
+                    <a href=""></a>
                     HTML/CSS
                 </div>
-        </section>
-
-        <section class="contact">
-            <div class="contact-title">
-                <h2>Contact</h2>
             </div>
+        </section>
+        <!-- Contact Section -->
+        <section class="contact">
+            <header>
+                <h2><a id="contact-link"></a>Contact</h2>
+            </header>
             <div class="contact-text">
                 <ul>
-                    <li>(XXX) XXX-XXX</li>
-                    <li>wbgc728@gmail.com</li>
-                    <li>Github</li>
-                    <li>LinkedIn</li>
+                    <li><a href="(XXX) XXX-XXX">Phone</a></li>
+                    <li><a href="wbgc728@gmail.com">Email</a></li>
+                    <li><a href="Github">Github</a></li>
+                    <li><a href="LinkedIn">LinkedIn</a></li>
                 </ul>
-                
             </div>
         </section>
 
