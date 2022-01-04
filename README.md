@@ -14,4 +14,4 @@ To be broken up into the following sections:
 
  Navigation bar with links to each section
 
- 
+ ![](./assets/screenshot.png)
